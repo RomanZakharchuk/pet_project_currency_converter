@@ -1,0 +1,33 @@
+.Container {
+  background: white;
+  border-radius: 8px;
+  padding: 50px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ExchangeArrowBlock {
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: 1px solid #0D8379;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.ExchangeArrow {
+  transform: rotate(90deg);
+  fill: #0D8379;
+}
+
+.AmountWrapper {
+  display: flex;
+  align-items: center;
+}

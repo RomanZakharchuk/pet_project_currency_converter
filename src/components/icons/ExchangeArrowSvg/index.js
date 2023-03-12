@@ -1,0 +1,1 @@
+export { ExchangeArrowSvg } from './ExchangeArrowSvg';
